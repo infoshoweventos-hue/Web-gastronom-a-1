@@ -192,4 +192,269 @@
       <button class="mobile-menu__close" id="menuCloseBtn" aria-label="Cerrar menú"><i class="ph ph-x"></i></button>
     </div>
     <a href="#carta" class="mobile-menu__link"><i class="ph ph-coffee"></i> La Carta</a>
-    <a href="#nosotros"  class="mobile-menu__link"><i class="ph ph-storefront"></
+    <a href="#nosotros"  class="mobile-menu__link"><i class="ph ph-storefront"></i> El Local</a>
+    <a href="#testimonios" class="mobile-menu__link"><i class="ph ph-star"></i> Reseñas</a>
+    <div class="mobile-menu__cta">
+      <a href="https://wa.me/5491125371329?text=Hola!%20Quiero%20reservar%20una%20mesa." target="_blank" rel="noopener" class="btn btn--whatsapp" style="width:100%;justify-content:center;">
+        <i class="ph-fill ph-whatsapp-logo"></i> Reservar Mesa
+      </a>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#inicio"><img src="assets/logo.svg" alt="Lumbre Café" class="nav__logo-img" /></a>
+      <ul class="nav__links">
+        <li><a href="#carta">La Carta</a></li>
+        <li><a href="#nosotros">El Local</a></li>
+        <li><a href="#testimonios">Reseñas</a></li>
+        <li>
+          <a href="https://wa.me/5491125371329?text=Hola!%20Quiero%20reservar%20una%20mesa." target="_blank" rel="noopener" class="btn btn--outline-accent" style="padding:0.5rem 1.25rem;font-size:0.7rem;">
+            Reservar Mesa
+          </a>
+        </li>
+      </ul>
+      <button class="nav__mobile-toggle" id="menuToggle" aria-label="Abrir menú"><i class="ph ph-list"></i></button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1400&q=80&fit=crop" alt="Cafetería de especialidad en Liniers" loading="eager" />
+    </div>
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__badge animate__animated animate__fadeInDown">
+          <span class="badge"><i class="ph-fill ph-map-pin"></i> Café & Cocina · Liniers</span>
+        </div>
+        <h1 class="display-xl hero__title animate__animated animate__fadeInUp" style="--animate-delay:0.15s;">
+          El verdadero café de<br><em>especialidad.</em>
+        </h1>
+        <p class="body-lg hero__subtitle animate__animated animate__fadeInUp" style="--animate-delay:0.3s;">
+          Pastelería artesanal y almuerzos pensados para tu pausa perfecta. Vení a disfrutar al local o pedí para llevar.
+        </p>
+        <div class="hero__actions animate__animated animate__fadeInUp" style="--animate-delay:0.45s;">
+          <a href="https://wa.me/5491125371329?text=Hola!%20Quiero%20hacer%20un%20pedido%20para%20retirar." target="_blank" rel="noopener" class="btn btn--primary">
+            Hacer un pedido <i class="ph ph-arrow-right"></i>
+          </a>
+          <a href="#carta" class="btn btn--ghost">Ver la carta</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll"><i class="ph ph-caret-down"></i><span>Scroll</span></div>
+  </section>
+
+  <!-- PROVEEDORES / APPS -->
+  <div class="clients">
+    <div class="container">
+      <p class="clients__label reveal">Encontranos también en</p>
+      <div class="clients__logos reveal reveal-delay-1">
+        <span>PedidosYa</span><span>Rappi</span><span>Nespresso</span><span>MercadoPago</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="reveal"><p class="stat__number">+15k</p><p class="stat__label">Tazas servidas</p></div>
+        <div class="reveal reveal-delay-1"><p class="stat__number">4.9</p><p class="stat__label">Estrellas en Google</p></div>
+        <div class="reveal reveal-delay-2"><p class="stat__number">100%</p><p class="stat__label">Grano de origen</p></div>
+        <div class="reveal reveal-delay-3"><p class="stat__number">4</p><p class="stat__label">Años en el barrio</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARTA (SERVICIOS) -->
+  <section class="section" id="carta">
+    <div class="container">
+      <div class="services__header">
+        <div>
+          <p class="eyebrow reveal">Nuestras opciones</p>
+          <h2 class="display-lg reveal reveal-delay-1" style="max-width:480px;">
+            Menú pensado para <em style="color:var(--color-accent);font-style:normal;">disfrutar</em>
+          </h2>
+        </div>
+        <a href="https://wa.me/5491125371329?text=Hola!%20Me%20pasar%C3%ADan%20el%20men%C3%BA%20completo%3F" target="_blank" rel="noopener" class="btn btn--ghost reveal">Consultar menú completo</a>
+      </div>
+      <div class="grid-3">
+        <div class="service-card reveal" data-modal="cafeteria">
+          <div class="service-card__icon"><i class="ph ph-coffee"></i></div>
+          <h3 class="service-card__title">Café de Especialidad</h3>
+          <p class="service-card__desc">Granos seleccionados y tostados en su punto justo. Calibrados por baristas profesionales.</p>
+          <div class="service-card__cta">Ver más <i class="ph ph-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal reveal-delay-1" data-modal="pasteleria">
+          <div class="service-card__icon"><i class="ph ph-croissant"></i></div>
+          <h3 class="service-card__title">Pastelería Artesanal</h3>
+          <p class="service-card__desc">Elaboración propia todas las mañanas. Desde clásicos hasta opciones sin TACC y veganas.</p>
+          <div class="service-card__cta">Ver más <i class="ph ph-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal reveal-delay-2" data-modal="almuerzos">
+          <div class="service-card__icon"><i class="ph ph-fork-knife"></i></div>
+          <h3 class="service-card__title">Almuerzos Caseros</h3>
+          <p class="service-card__desc">Para el mediodía, platos abundantes y sabrosos, como hechos en casa, con menú diario.</p>
+          <div class="service-card__cta">Ver más <i class="ph ph-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal reveal-delay-3" data-modal="brunch">
+          <div class="service-card__icon"><i class="ph ph-egg"></i></div>
+          <h3 class="service-card__title">Brunch de Fin de Semana</h3>
+          <p class="service-card__desc">La mejor forma de arrancar tu sábado o domingo. Opciones dulces, saladas y mimosas.</p>
+          <div class="service-card__cta">Ver más <i class="ph ph-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal reveal-delay-4" data-modal="tienda">
+          <div class="service-card__icon"><i class="ph ph-bag"></i></div>
+          <h3 class="service-card__title">Tienda Cafetera</h3>
+          <p class="service-card__desc">Llevate nuestros granos a tu casa, junto con tazas de cerámica artesanal y métodos de filtrado.</p>
+          <div class="service-card__cta">Ver más <i class="ph ph-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal reveal-delay-5" data-modal="eventos">
+          <div class="service-card__icon"><i class="ph ph-champagne"></i></div>
+          <h3 class="service-card__title">Eventos Privados</h3>
+          <p class="service-card__desc">Cerramos el local para tu festejo o reunión corporativa. Menú a medida y atención exclusiva.</p>
+          <div class="service-card__cta">Ver más <i class="ph ph-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="nosotros" style="background:var(--color-bg-surface);border-top:1px solid var(--color-border);border-bottom:1px solid var(--color-border);">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__visual reveal">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80&fit=crop" alt="Nuestro local en Liniers" loading="lazy" />
+          <div class="about__badge-floating">
+            <span class="badge"><i class="ph-fill ph-seal-check"></i> El barrio nos elige</span>
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow reveal">Nuestro Local</p>
+          <h2 class="display-md about__title reveal reveal-delay-1">
+            No somos un café de paso.<br>Somos tu <em style="color:var(--color-accent);font-style:normal;">segunda casa.</em>
+          </h2>
+          <p class="body-lg about__text reveal reveal-delay-2">
+            Creamos Lumbre porque sentíamos que faltaba un lugar cálido donde sentarse a tomar un café hecho con cariño. Cuidamos cada detalle, desde el origen del grano hasta la atención en la mesa.
+          </p>
+          <div class="about__values reveal reveal-delay-3">
+            <div class="about__value">
+              <i class="ph-fill ph-plant about__value-icon"></i>
+              <div class="about__value-text"><span class="about__value-title">Materia Prima Real</span>Usamos manteca, huevos de campo y productos frescos todos los días.</div>
+            </div>
+            <div class="about__value">
+              <i class="ph-fill ph-wifi-high about__value-icon"></i>
+              <div class="about__value-text"><span class="about__value-title">Ideal para trabajar</span>Enchufes en todas las mesas y un WiFi que vuela.</div>
+            </div>
+            <div class="about__value">
+              <i class="ph-fill ph-paw-print about__value-icon"></i>
+              <div class="about__value-text"><span class="about__value-title">Pet Friendly</span>Tu mascota siempre es bienvenida, y le damos agüita fresca.</div>
+            </div>
+          </div>
+          <a href="#contacto" class="btn btn--primary reveal reveal-delay-4">Venir a visitarnos <i class="ph ph-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section testimonios" id="testimonios">
+    <div class="container">
+      <div class="section__header" style="text-align:center;">
+        <p class="eyebrow reveal">Reseñas reales</p>
+        <h2 class="display-lg reveal reveal-delay-1" style="max-width:480px;margin-inline:auto;">
+          Lo que dice<br><em style="color:var(--color-accent);font-style:normal;">nuestra comunidad</em>
+        </h2>
+      </div>
+      <div class="grid-3">
+        <div class="testimonio-card reveal">
+          <div class="testimonio-card__quote">"</div>
+          <p class="testimonio-card__text">El mejor Flat White de Liniers por escándalo. La pastelería siempre está fresca y la atención de las chicas es un 10.</p>
+          <div class="testimonio-card__author">
+            <div class="testimonio-card__avatar">S</div>
+            <div><p class="testimonio-card__name">Sofía Martínez</p><p class="testimonio-card__role">Local Guide · Google Maps</p></div>
+          </div>
+        </div>
+        <div class="testimonio-card reveal reveal-delay-1">
+          <div class="testimonio-card__quote">"</div>
+          <p class="testimonio-card__text">Vine a almorzar unas pastas con salsa que estaban para chuparse los dedos. Sentís el sabor casero y porciones abundantes.</p>
+          <div class="testimonio-card__author">
+            <div class="testimonio-card__avatar">M</div>
+            <div><p class="testimonio-card__name">Martín López</p><p class="testimonio-card__role">Cliente frecuente</p></div>
+          </div>
+        </div>
+        <div class="testimonio-card reveal reveal-delay-2">
+          <div class="testimonio-card__quote">"</div>
+          <p class="testimonio-card__text">Mi lugar favorito para venir a trabajar con la notebook. Es súper tranquilo, rico café y no te apuran nunca.</p>
+          <div class="testimonio-card__author">
+            <div class="testimonio-card__avatar">V</div>
+            <div><p class="testimonio-card__name">Valeria G.</p><p class="testimonio-card__role">Reseña de PedidosYa</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="section cta-section" id="contacto">
+    <div class="container--narrow">
+      <p class="eyebrow reveal">Te estamos esperando</p>
+      <h2 class="display-lg cta-section__title reveal reveal-delay-1">
+        ¿Qué vas a<br><em style="color:var(--color-accent);font-style:normal;">pedir hoy?</em>
+      </h2>
+      <p class="body-lg cta-section__subtitle reveal reveal-delay-2">
+        Hacé tu pedido para pasar a buscar por el local, o mandanos un mensaje para reservarte una mesa.
+      </p>
+      <div class="cta-section__actions reveal reveal-delay-3">
+        <a href="https://wa.me/5491125371329?text=Hola!%20Quiero%20hacer%20un%20pedido." target="_blank" rel="noopener" class="btn btn--whatsapp">
+          <i class="ph-fill ph-whatsapp-logo"></i> Hacer pedido ahora
+        </a>
+      </div>
+      <p class="cta-section__trust reveal reveal-delay-4">
+        <i class="ph-fill ph-clock"></i> Abierto Lunes a Sábados de 8:00 a 20:00hs
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="#inicio" style="display:inline-block;margin-bottom:var(--space-4);">
+            <img src="assets/logo.svg" alt="Logo Lumbre" class="nav__logo-img" style="height:30px;" />
+          </a>
+          <p class="footer__brand-desc">El rincón de Liniers donde el café de especialidad y la comida casera se encuentran.</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Accesos</p>
+          <ul class="footer__links">
+            <li><a href="#carta">La Carta</a></li>
+            <li><a href="#nosotros">El Local</a></li>
+            <li><a href="#testimonios">Reseñas</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Contacto</p>
+          <ul class="footer__links">
+            <li><a href="https://wa.me/5491125371329" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo"></i> WhatsApp</a></li>
+            <li><a href="https://instagram.com/lumbrecafe" target="_blank" rel="noopener"><i class="ph ph-instagram-logo"></i> Instagram</a></li>
+            <li><a href="#"><i class="ph ph-map-pin"></i> Calle Falsa 123, Liniers</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 Lumbre Café. · Diseño y desarrollo web por <strong>Demiurgo Studio</strong>.</p>
+        <div class="footer__social">
+          <a href="https://wa.me/5491125371329" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ph ph-whatsapp-logo"></i></a>
+          <a href="https://instagram.com/lumbrecafe" target="_blank" rel="noopener" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
